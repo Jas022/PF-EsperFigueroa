@@ -270,7 +270,8 @@ a:active {
 
 .carousel-inner{
     width: 100%;
-    height: 600px;
+    height: 500px;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
 }
 
 /* ----- FIN Carrusel Imagen -----*/
@@ -586,11 +587,3 @@ font-family: 'Noto Sans JP', sans-serif;
     justify-items: center;
     margin: 20px 30px;
 }
-
-.container-max-widths: (
-  sm: 540px;
-  md: 720px,
-  lg: 960px,
-  xl: 1140px,
-  xxl: 1320px
-);
