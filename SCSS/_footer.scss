@@ -1,0 +1,32 @@
+.bg-footer {
+    background-color: #9575CD;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    margin-top: auto;
+    text-decoration: none;
+}
+    .redes a i {
+       @extend %Iconos;
+    }
+
+    a i:hover {
+        transform: scale(1.5);
+        transition: all 1s ease;
+    }
+    .p{
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    .iconos2{
+        width: 33%;
+        display: flex;
+        font-size: 20px;
+        text-decoration: none;
+        margin-left: 72px;
+        margin-top: 12px;
+        justify-content: space-evenly;}
+

@@ -1,0 +1,21 @@
+{
+  "name": "artesaniasste",
+  "version": "1.0.0",
+  "description": "Proyecto Desarrollo web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/Main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jas022/artesaniasste-esper-figueroa.git"
+  },
+  "author": "Jasmin Esper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jas022/artesaniasste-esper-figueroa/issues"
+  },
+  "homepage": "https://github.com/Jas022/artesaniasste-esper-figueroa#readme"
+}
