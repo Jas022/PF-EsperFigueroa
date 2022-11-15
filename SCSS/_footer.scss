@@ -1,26 +1,33 @@
 .bg-footer {
     background-color: #9575CD;
     padding: 10px;
-    display: flex;
     justify-content: space-around;
-    align-items: center;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 400;
     margin-top: auto;
     text-decoration: none;
+    @include flex-center();
 }
+
+ 
     .redes a i {
        @extend %Iconos;
+    }
+    a {
+        text-decoration: none;
     }
 
     a i:hover {
         transform: scale(1.5);
+        color: $Salmonclaro;
         transition: all 1s ease;
+        text-decoration: none;
     }
     .p{
         margin-top: 0;
         margin-bottom: 1rem;
     }
+
     .iconos2{
         width: 33%;
         display: flex;
@@ -30,3 +37,10 @@
         margin-top: 12px;
         justify-content: space-evenly;}
 
+ .menufooter{
+    list-style: none;
+ }
+ .menufooter2{
+    list-style: none;
+    margin-bottom: auto;
+ }

@@ -8,13 +8,12 @@
     padding-top: 14px;
 
     .container-fluid {
-        display: flex;
         justify-content: space-around;
         width: 100%;
         margin: 20px auto;
         display: flex;
-        align-items: center;
         background-color: #9575CD;
+        @include flex-center();
     }
 }
     .navbar-collapse {
@@ -277,7 +276,7 @@
    
 }
 .main-contacto {
-    display: grid;
+    display: flex;
     justify-content: space-around;
     width: 100%;
     background-color: white;
@@ -295,17 +294,15 @@
 }
 
 .section-contacto {
-    height: 750px;
+    height: 1200px;
     background-color: white;
 }
 
 .section-nosotros {
-    display: flex;
+    @include flex-center();
     flex-direction: column;
-    align-items: center;
     width: 100%;
-    height: 150vh
-    
+    height: 150vh;
 }
 
 .section-nosotros article {
@@ -337,7 +334,6 @@
     padding: 30px;
     margin: auto;
     border-radius: 4px;
-    margin: -495px 91px 383px 645px;
     font-family: 'Noto Sans JP', sans-serif;
     color: black;
     justify-content: space-around;
@@ -439,12 +435,13 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     justify-content: space-around;
+    justify-items: center;
+    margin-right: 5px;
 }
 
 .NuestrosP {
-    display: flex;
+    @include flex-center();
     flex-direction: column;
-    align-items: center;
     padding: 29px 45px 16px 134px;
     color: $Salmonclaro;
     font-size: 30px;
@@ -466,10 +463,10 @@
 }
 
 .Caja1 {
+    @include flex-center();
     height: 250px;
     background-image: url(https://d22fxaf9t8d39k.cloudfront.net/deb10ac0430374756ac76e69694dd5fe8d0f1b1bb1802232c258179cfc8044de25569.jpeg);
     margin-top: 26px;
-    display: flex;
     justify-content: space-between;
     background-attachment: fixed;
     background-position: center;
@@ -480,7 +477,6 @@
     font-size: clamp(14px, calc(20px + 8 * ((100vw - 320px) / 960)), 30px);
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     .h4 {
         margin: 35px;
     }
