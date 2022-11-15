@@ -2,6 +2,7 @@
     .contenedor {
         width: 100%;
     }
+
     .buscador {
         margin-left: 116px;
         margin-right: 86px;
@@ -22,15 +23,17 @@
         width: 100%;
         justify-items: center;
     }
+
     .imagenlogo {
-        vertical-align: initial;
-        width: 66%;
+        margin-left: 101px;
+        margin-right: 8px;
     }
 
     .header {
         width: 100%;
     }
-    .quienessomos{
+
+    .quienessomos {
         width: 100%;
         margin: 10px;
         font-size: 32px;
@@ -44,36 +47,47 @@
     .main {
         width: 100%;
     }
-    .logo p{
+
+    .logo p {
         flex-direction: column;
         margin: 37px;
     }
-    .iconos{
+
+    .iconos {
         margin-left: 74px;
-        
+
     }
-    .iconos2{ 
+
+    .iconos2 {
         margin-left: 74px;
-        }
-    .carousel-inner{
+    }
+
+    .carousel-inner {
         width: 100%;
         height: auto;
-}
-.CardsTodas {
-    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-    justify-items: center;
-}
+    }
+
+    .CardsTodas {
+        grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+        justify-items: center;
+    }
 
 }
+
 @media screen and (min-width: 1302px) and (max-width: 1400px) {
     .contenedor {
         width: 100%;
     }
+
     .buscador {
-        margin-left: 116px;
-        margin-right: 86px;
-        width: 662px;
+        margin-left: 114px;
+        margin-right: -84px;
+        width: 468px;
     }
+    .imagenlogo {
+        margin-left: 101px;
+        margin-right: 8px;
+}
 
     .textoquienes {
         width: 100%;
@@ -89,15 +103,17 @@
         width: 100%;
         justify-items: center;
     }
+
     .imagenlogo {
-        vertical-align: initial;
-        width: 66%;
-    }
+        margin-left: 101px;
+        margin-right: 8px;
+}
 
     .header {
         width: 100%;
     }
-    .quienessomos{
+
+    .quienessomos {
         width: 100%;
         margin: 10px;
         font-size: 32px;
@@ -111,34 +127,41 @@
     .main {
         width: 100%;
     }
-    .logo p{
+
+    .logo p {
         flex-direction: column;
         margin: 37px;
     }
-    .iconos{
+
+    .iconos {
         margin-left: 74px;
     }
-    .iconos2{ 
+
+    .iconos2 {
         margin-left: 74px;
-        }
-    .carousel-inner{
+    }
+
+    .carousel-inner {
         width: 100%;
         height: auto;
-}
-.CardsTodas {
-    grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
-    justify-items: center;
-}
+    }
+
+    .CardsTodas {
+        grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
+        justify-items: center;
+    }
 
 }
+
 @media screen and (min-width: 1201px) and (max-width: 1301px) {
     .contenedor {
         width: 100%;
     }
+
     .buscador {
-        margin-left: 61px;
-        margin-right: 7px;
-        width: 627px;
+        margin-left: 114px;
+        margin-right: -84px;
+        width: 468px;
     }
 
     .textoquienes {
@@ -155,15 +178,18 @@
         width: 100%;
         justify-items: center;
     }
+
     .imagenlogo {
-        vertical-align: initial;
-        width: 66%;
-    }
+        margin-left: 101px;
+        margin-right: 8px;
+}
+    
 
     .header {
         width: 100%;
     }
-    .quienessomos{
+
+    .quienessomos {
         width: 100%;
         margin: 10px;
         font-size: 31px;
@@ -177,34 +203,42 @@
     .main {
         width: 100%;
     }
-    .logo p{
+
+    .logo p {
         flex-direction: column;
         margin: 37px;
     }
-    .iconos{
+
+    .iconos {
         margin-left: 72px;
     }
-    .iconos2{ 
+
+    .iconos2 {
         margin-left: 74px;
-        }
-    .carousel-inner{
+    }
+
+    .carousel-inner {
         width: 100%;
         height: auto;
-}
-.CardsTodas {
-    grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
-    justify-items: center;
-}
+    }
+
+    .CardsTodas {
+        grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
+        justify-items: center;
+        margin-right: auto;
+    }
 
 }
+
 @media screen and (min-width: 1002px) and (max-width: 1200px) {
     .body {
         width: 100%;
     }
+
     .buscador {
-        margin-left: 53px;
-        margin-right: 52px;
-        width: 526px;
+        margin-left: 114px;
+        margin-right: -75px;
+        width: 476px;
     }
 
     .textoquienes {
@@ -221,19 +255,23 @@
         width: 100%;
         justify-items: center;
     }
+
     .imagenlogo {
         vertical-align: initial;
-        width: 66%;
+        margin-left: 102px;
+        margin-right: 21px;
     }
 
     .header {
         width: 100%;
     }
-    .quienessomos{
+
+    .quienessomos {
         width: 100%;
         margin: 10px;
         font-size: 30px;
     }
+
     .detallesomos {
         width: 85%;
         margin: 11px 75px;
@@ -241,36 +279,41 @@
 
     .main {
         width: 100%;
-    } 
-    .logo p{
+    }
+
+    .logo p {
         flex-direction: column;
         margin: 37px;
     }
-    .iconos{
+
+    .iconos {
         margin-left: 72px;
     }
-    .iconos2{ 
+
+    .iconos2 {
         margin-left: 74px;
-        }
+    }
+
     .CardsTodas {
-    grid-template-columns: repeat(auto-fit, minmax(404px, 1fr));
-    justify-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(404px, 1fr));
+        justify-items: center;
+    }
 }
-}
+
 @media screen and (min-width: 901px) and (max-width: 1001px) {
     .contenedor {
         width: 100%;
     }
+
     .buscador {
-        margin-left: 37px;
-        margin-right: 5px;
-        width: 444px;
+        display: none;
     }
 
     .textoquienes {
         width: 100%;
         margin: 10px;
-        font-size: 23px;;
+        font-size: 23px;
+        ;
     }
 
     .imagenfamilia {
@@ -281,20 +324,23 @@
         width: 100%;
         justify-items: center;
     }
+
     .imagenlogo {
         vertical-align: initial;
-        width: 66%;
+        margin-right: 33px;
+        margin-left: 86px;
     }
 
     .header {
-        width: 100%; 
-        }
-        
-    .quienessomos{
+        width: 100%;
+    }
+
+    .quienessomos {
         width: 100%;
         margin: 10px;
         font-size: 31px;
     }
+
     .detallesomos {
         width: 85%;
         margin: 11px 75px;
@@ -302,30 +348,36 @@
 
     .main {
         width: 100%;
-    } 
-    .logo p{
+    }
+
+    .logo p {
         flex-direction: column;
         margin: 37px;
     }
-    .iconos{
+
+    .iconos {
         width: 33%;
-   
+
     }
-    .iconos2{ 
+
+    .iconos2 {
         margin-left: 74px;
-        }
+    }
+
     .CardsTodas {
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    justify-items: center;
-    
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        justify-items: center;
+
+    }
 }
-}
+
 @media screen and (min-width: 701px) and (max-width: 900px) {
     .contenedor {
         width: 100%;
     }
+
     .buscador {
-       display: none;
+        display: none;
     }
 
     .textoquienes {
@@ -342,15 +394,17 @@
         width: 100%;
         justify-items: center;
     }
+
     .imagenlogo {
-        vertical-align: initial;
-        width: 66%;
+        margin-left: 134px;
+        margin-right: 28px;
     }
 
     .header {
         width: 100%;
     }
-    .quienessomos{
+
+    .quienessomos {
         width: 100%;
         margin: 10px;
         font-size: 29px;
@@ -364,83 +418,103 @@
     .main {
         width: 100%;
     }
-    .logo p{
+
+    .logo p {
         flex-direction: column;
         margin: 11px;
     }
-    .iconos{
-       display: none;
-    }
-    .iconos2{ 
+
+    .iconos2 {
         margin-left: 74px;
-        }
-    .img-trabajando{
+    }
+
+    .img-trabajando {
         vertical-align: initial;
         width: 66%;
     }
-    .carousel-inner{
+
+    .carousel-inner {
         width: 100%;
         height: auto;
     }
-    .tarjeta{
+
+    .tarjeta {
         width: 75%;
         margin-left: 18px;
     }
-    .cuerpo img{
+
+    .cuerpo img {
         width: 100%;
         height: 283px;
     }
-    .NuestrosP{
-        padding: 34px 20px 1px 22px;  
+
+    .NuestrosP {
+        padding: 34px 20px 1px 22px;
     }
+
     .DestacadosMes {
         padding: 29px 26px 13px 28px;
     }
-    #container-card{
+
+    #container-card {
         margin: 12px 21px 30px 25px;
         height: 121px;
         width: 84%;
     }
-    #container-card .product-details h1{
+
+    #container-card .product-details h1 {
         margin: 0px 6px -10px -5px;
         font-size: 14px;
     }
-    .product-details{
+
+    .product-details {
         width: 54%;
         padding: 21px;
     }
-    .btn span{
+
+    .btn span {
         padding: 0px 1px;
         margin: 0px 4px -30px 22px;
     }
-    .btn{
+
+    .btn {
         width: 111px;
         margin: -27px 2px -29px 3px;
     }
-    .hint-star{
+
+    .hint-star {
         display: none;
     }
-    .hint-star{
+
+    .hint-star {
         margin: -15px -41px -5px -9px;
         font-size: 15px;
     }
+
     #container-card .product-details>p {
         display: none;
     }
-    .info ul{
+
+    .info ul {
         margin-top: 0;
         margin-bottom: 1rem;
         font-size: 8px;
     }
+
     .CardsTodas {
         grid-template-columns: repeat(auto-fit, minmax(297px, 1fr));
         justify-items: center;
+    }
+    .form-registro {
+        width: 80%;
+    }
 }
-}
+
 @media screen and (min-width: 594px) and (max-width: 700px) {
     .contenedor {
         width: 100%;
     }
+
     .bg-footer {
         flex-direction: column;
     }
@@ -450,11 +524,11 @@
     }
 
     .detallesomos {
-        width: 85%; 
+        width: 85%;
         margin: 11px 75px;
-        }
-    
-   
+    }
+
+
     .imagenfamilia {
         width: 100%;
     }
@@ -463,106 +537,139 @@
         width: 100%;
         justify-items: center;
     }
+
     .imagenlogo {
-        vertical-align: initial;
-        width: 66%;
+        width: 100%;
+        margin-left: 109px;
+        margin-right: 28px;
     }
 
     .header {
         width: 100%;
     }
-    .quienessomos{
+
+    .quienessomos {
         width: 100%;
         margin: 10px;
         font-size: 21px;
     }
-    .textoquienes{
+
+    .textoquienes {
         width: 100%;
         margin: 8px;
         font-size: 17px;
     }
+
     .main {
         width: 100%;
         margin: 11px 38px;
     }
-    .logo p{
+
+    .logo p {
         flex-direction: column;
         margin: 37px;
     }
-    .iconos{
-        display: none;
-    }
-    .img-trabajando{
+
+
+    .img-trabajando {
         vertical-align: initial;
         width: 66%;
     }
-    .carousel-inner{
+
+    .carousel-inner {
         width: 100%;
         height: auto;
     }
-    .tarjeta{
+
+    .tarjeta {
         width: 75%;
         margin-left: 18px;
     }
-    .cuerpo img{
+
+    .cuerpo img {
         width: 100%;
         height: 283px;
     }
-    .NuestrosP{
-        padding: 34px 20px 1px 22px;  
+
+    .NuestrosP {
+        padding: 34px 20px 1px 22px;
     }
+
     .DestacadosMes {
         padding: 29px 26px 13px 28px;
     }
-    #container-card{
+
+    #container-card {
         margin: 12px 21px 30px 25px;
         height: 121px;
         width: 84%;
     }
-    #container-card .product-details h1{
+
+    #container-card .product-details h1 {
         margin: 0px 6px -10px -5px;
         font-size: 14px;
     }
-    .product-details{
+
+    .product-details {
         width: 54%;
         padding: 21px;
     }
-    .btn span{
+
+    .btn span {
         padding: 0px 1px;
         margin: 0px 4px -30px 22px;
     }
-    .btn{
+
+    .btn {
         width: 111px;
         margin: -27px 2px -29px 3px;
     }
-    .hint-star{
+
+    .hint-star {
         display: none;
     }
-    .hint-star{
+
+    .hint-star {
         margin: -15px -41px -5px -9px;
         font-size: 15px;
     }
+
     #container-card .product-details>p {
         display: none;
     }
-    .info ul{
+
+    .info ul {
         margin-top: 0;
         margin-bottom: 1rem;
         font-size: 8px;
     }
+
     .CardsTodas {
         grid-template-columns: repeat(auto-fit, minmax(297px, 1fr));
         justify-items: center;
-}
+    }
+
     .navbar-expand-lg .navbar-nav {
         flex-direction: column;
         align-items: center;
     }
+
+    .form-registro {
+        width: 80%;
+    }
+
+    .contacto iframe {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
 }
+
 @media screen and (min-width: 495px) and (max-width: 593px) {
     .contenedor {
         width: 100%;
     }
+
     .bg-footer {
         flex-direction: column;
     }
@@ -570,13 +677,16 @@
     .buscador {
         display: none;
     }
+    .iconos {
+        display: none;
+    }
 
     .detallesomos {
-        width: 85%; 
+        width: 85%;
         margin: 11px 75px;
-        }
-    
-   
+    }
+
+
     .imagenfamilia {
         width: 100%;
     }
@@ -585,109 +695,144 @@
         width: 100%;
         justify-items: center;
     }
+
     .imagenlogo {
         vertical-align: initial;
-        width: 66%;
+        margin-right: 31px;
+        margin-left: 158px;
     }
 
     .header {
         width: 100%;
     }
-    .quienessomos{
+
+    .quienessomos {
         width: 100%;
         margin: 10px;
         font-size: 21px;
     }
-    .textoquienes{
+
+    .textoquienes {
         width: 100%;
         margin: 8px;
         font-size: 17px;
     }
+
     .main {
         width: 100%;
         margin: 11px 38px;
     }
-    .logo p{
+
+    .logo p {
         flex-direction: column;
         margin: 37px;
     }
-    .iconos{
-        display: none;
-    }
-    .iconos2{ 
+
+    .iconos2 {
         margin-left: 74px;
-        }
-    .img-trabajando{
+    }
+
+    .img-trabajando {
         vertical-align: initial;
         width: 66%;
     }
-    .carousel-inner{
+
+    .carousel-inner {
         width: 100%;
         height: auto;
     }
-    .tarjeta{
+
+    .tarjeta {
         width: 75%;
         margin-left: 18px;
     }
-    .cuerpo img{
+
+    .cuerpo img {
         width: 100%;
         height: 283px;
     }
-    .NuestrosP{
-        padding: 34px 20px 1px 22px;  
+
+    .NuestrosP {
+        padding: 34px 20px 1px 22px;
     }
+
     .DestacadosMes {
         padding: 29px 26px 13px 28px;
     }
-    #container-card{
+
+    #container-card {
         margin: 12px 21px 30px 25px;
         height: 121px;
         width: 84%;
     }
-    #container-card .product-details h1{
+
+    #container-card .product-details h1 {
         margin: 0px 6px -10px -5px;
         font-size: 14px;
     }
-    .product-details{
+
+    .product-details {
         width: 54%;
         padding: 21px;
     }
-    .btn span{
+
+    .btn span {
         padding: 0px 1px;
         margin: 0px 4px -30px 22px;
     }
-    .btn{
+
+    .btn {
         width: 111px;
         margin: -27px 2px -29px 3px;
     }
-    .hint-star{
+
+    .hint-star {
         display: none;
     }
-    .hint-star{
+
+    .hint-star {
         margin: -15px -41px -5px -9px;
         font-size: 15px;
     }
+
     #container-card .product-details>p {
         display: none;
     }
-    .info ul{
+
+    .info ul {
         margin-top: 0;
         margin-bottom: 1rem;
         font-size: 8px;
     }
+
     .CardsTodas {
         grid-template-columns: repeat(auto-fit, minmax(198px, 1fr));
         justify-items: center;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-registro {
+        width: 80%;
+        height: 505px;
+    }
+    .contacto iframe {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .section-contacto{
+        height: 1090px;
+    }
 }
-.navbar-expand-lg .navbar-nav {
-    flex-direction: column;
-    align-items: center;
-}
-}
+
 @media screen and (min-width: 402px) and (max-width: 494px) {
     .contenedor {
         width: 100%;
     }
+
     .bg-footer {
         flex-direction: column;
     }
@@ -695,6 +840,7 @@
     .buscador {
         display: none;
     }
+
     .textoquienes {
         width: 100%;
         margin: 10px;
@@ -709,24 +855,29 @@
         width: 100%;
         justify-items: center;
     }
+
     .imagenlogo {
         vertical-align: initial;
-        width: 66%;
+        margin-right: 31px;
+        margin-left: 158px;
     }
 
     .header {
         width: 100%;
     }
-    .quienessomos{
+
+    .quienessomos {
         width: 100%;
         margin: 10px;
         font-size: 21px;
     }
-    .textoquienes{
+
+    .textoquienes {
         width: 100%;
         margin: 8px;
         font-size: 17px;
     }
+
     .detallesomos {
         width: 85%;
         margin: 11px 38px;
@@ -734,87 +885,122 @@
 
     .main {
         width: 100%;
-    } 
-    .logo p{
+    }
+
+    .logo p {
         flex-direction: column;
         margin: 37px;
     }
-    .iconos{
-       display: none;
-       margin-left: 74px;
+
+    .iconos {
+        display: none;
+        margin-left: 74px;
     }
-    .img-trabajando{
+
+    .img-trabajando {
         vertical-align: initial;
         width: 66%;
     }
-    .carousel-inner{
+
+    .carousel-inner {
         width: 100%;
         height: auto;
     }
-    .tarjeta{
+
+    .tarjeta {
         width: 90%;
         margin-left: 9px;
     }
-    .cuerpo img{
-    width: 100%;
-    height: 201px;
+
+    .cuerpo img {
+        width: 100%;
+        height: 201px;
 
     }
-    .NuestrosP{
-        padding: 34px 20px 1px 22px;  
+
+    .NuestrosP {
+        padding: 34px 20px 1px 22px;
     }
+
     .DestacadosMes {
         padding: 29px 26px 13px 28px;
     }
-    #container-card{
+
+    #container-card {
         margin: 12px 21px 30px 25px;
         height: 121px;
         width: 84%;
     }
-    #container-card .product-details h1{
+
+    #container-card .product-details h1 {
         margin: 0px 6px -10px -5px;
         font-size: 14px;
     }
-    .product-details{
+
+    .product-details {
         width: 54%;
         padding: 21px;
     }
-    .btn span{
+
+    .btn span {
         padding: 0px 1px;
         margin: 0px 4px -30px 22px;
     }
-    .btn{
+
+    .btn {
         width: 111px;
         margin: -27px 2px -29px 3px;
     }
-    .hint-star{
+
+    .hint-star {
         display: none;
     }
-    .hint-star{
+
+    .hint-star {
         margin: -15px -41px -5px -9px;
         font-size: 15px;
     }
+
     #container-card .product-details>p {
         display: none;
     }
-    .info ul{
+
+    .info ul {
         margin-top: 0;
         margin-bottom: 1rem;
         font-size: 8px;
     }
+
     .CardsTodas {
         grid-template-columns: repeat(auto-fit, minmax(167px, 1fr));
         justify-items: center;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-registro {
+        width: 80%;
+        height: 505px;
+    }
+
+    .contacto iframe {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .section-contacto{
+        height: 1090px;
+    }
+
 }
-.navbar-expand-lg .navbar-nav {
-    flex-direction: column;
-    align-items: center;
-}
-}
+
 @media screen and (min-width: 301px) and (max-width: 401px) {
     .contenedor {
         width: 100%;
     }
+
     .bg-footer {
         flex-direction: column;
     }
@@ -822,6 +1008,7 @@
     .buscador {
         display: none;
     }
+
     .textoquienes {
         width: 100%;
         margin: 10px;
@@ -836,24 +1023,28 @@
         width: 100%;
         justify-items: center;
     }
+
     .imagenlogo {
-        vertical-align: initial;
-        width: 66%;
+        margin-right: 33px;
+        margin-left: 94px;
     }
 
     .header {
         width: 100%;
     }
-    .quienessomos{
+
+    .quienessomos {
         width: 100%;
         margin: 10px;
         font-size: 21px;
     }
-    .textoquienes{
+
+    .textoquienes {
         width: 100%;
         margin: 8px;
         font-size: 17px;
     }
+
     .detallesomos {
         width: 85%;
         margin: 11px 38px;
@@ -861,77 +1052,109 @@
 
     .main {
         width: 100%;
-    } 
-    .logo p{
+    }
+
+    .logo p {
         flex-direction: column;
         margin: 37px;
     }
-    .iconos{
-       display: none;
+
+    .iconos {
+        display: none;
     }
-    .iconos2{ 
-    margin-left: 74px;
+
+    .iconos2 {
+        margin-left: 74px;
     }
-    .img-trabajando{
+
+    .img-trabajando {
         vertical-align: initial;
         width: 66%;
     }
-    .carousel-inner{
+
+    .carousel-inner {
         width: 100%;
         height: auto;
     }
-    .tarjeta{
+
+    .tarjeta {
         width: 90%;
         margin-left: 18px;
     }
-    .cuerpo img{
+
+    .cuerpo img {
         width: 100%;
         height: 283px;
     }
-    .NuestrosP{
-        padding: 34px 20px 1px 22px;  
+
+    .NuestrosP {
+        padding: 34px 20px 1px 22px;
     }
+
     .DestacadosMes {
         padding: 29px 26px 13px 28px;
     }
-    #container-card{
+
+    #container-card {
         margin: 12px 21px 30px 25px;
         height: 121px;
         width: 84%;
     }
-    #container-card .product-details h1{
+
+    #container-card .product-details h1 {
         margin: 0px 6px -10px -5px;
         font-size: 14px;
     }
-    .product-details{
+
+    .product-details {
         width: 54%;
         padding: 21px;
     }
-    .btn span{
+
+    .btn span {
         padding: 0px 1px;
         margin: 0px 4px -30px 22px;
     }
-    .btn{
+
+    .btn {
         width: 111px;
         margin: -27px 2px -29px 3px;
     }
-    .hint-star{
+
+    .hint-star {
         display: none;
     }
-    .hint-star{
+
+    .hint-star {
         margin: -15px -41px -5px -9px;
         font-size: 15px;
     }
+
     #container-card .product-details>p {
         display: none;
     }
-    .info ul{
+
+    .info ul {
         margin-top: 0;
         margin-bottom: 1rem;
         font-size: 8px;
     }
+
     .navbar-expand-lg .navbar-nav {
         flex-direction: column;
         align-items: center;
+    }
+
+    .form-registro {
+        width: 80%;
+        height: 505px;
+    }
+
+    .contacto iframe {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .section-contacto{
+        height: 1090px;
     }
 }
