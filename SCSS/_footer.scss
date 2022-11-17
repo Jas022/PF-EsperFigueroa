@@ -9,38 +9,43 @@
     @include flex-center();
 }
 
- 
-    .redes a i {
-       @extend %Iconos;
-    }
-    a {
-        text-decoration: none;
-    }
 
-    a i:hover {
-        transform: scale(1.5);
-        color: $Salmonclaro;
-        transition: all 1s ease;
-        text-decoration: none;
-    }
-    .p{
-        margin-top: 0;
-        margin-bottom: 1rem;
-    }
+.redes a i {
+    @extend %Iconos;
+}
 
-    .iconos2{
-        width: 33%;
-        display: flex;
-        font-size: 20px;
-        text-decoration: none;
-        margin-left: 72px;
-        margin-top: 12px;
-        justify-content: space-evenly;}
+a {
+    text-decoration: none;
+}
 
- .menufooter{
+a i:hover {
+    transform: scale(1.5);
+    color: $Salmonclaro;
+    transition: all 1s ease;
+    text-decoration: none;
+}
+
+.p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+}
+
+.iconos2 {
+    width: 33%;
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 72px;
+    margin-top: 12px;
+    justify-content: space-evenly;
+}
+
+.menufooter {
     list-style: none;
- }
- .menufooter2{
+}
+
+.menufooter2 {
     list-style: none;
     margin-bottom: auto;
- }
+}
